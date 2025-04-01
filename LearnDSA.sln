@@ -3,11 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35806.99
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA", "DSA\DSA.csproj", "{4A9F50FF-39F4-4A2A-ACAC-583C3932728C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-DSA", "DSA\01-DSA.csproj", "{4A9F50FF-39F4-4A2A-ACAC-583C3932728C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonthNames", "MonthNames\MonthNames.csproj", "{DAEF9DD3-DB52-44F0-BC80-2D938680CD4F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-MonthNames", "MonthNames\03-MonthNames.csproj", "{DAEF9DD3-DB52-44F0-BC80-2D938680CD4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{3B3F478B-1F4F-493E-88B0-22762A0B1E3E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-MultiplicationTable", "03-MultiplicationTable\03-MultiplicationTable.csproj", "{8DCDD53D-074B-42CA-ACAE-3D02B9AACFDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-GameMap", "03-GameMap\03-GameMap.csproj", "{06ED5586-77D5-498B-87B2-C75DEFBF76D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-YearlyTransportPlan", "03-YearlyTransportPlan\03-YearlyTransportPlan.csproj", "{7D68C3DD-471F-4EEE-A3C3-61EAB01B059E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-SortingAlgorithms", "03-SortingAlgorithms\03-SortingAlgorithms.csproj", "{AF322CAC-F514-4E64-BD02-ED73CF4DBA7C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +29,22 @@ Global
 		{DAEF9DD3-DB52-44F0-BC80-2D938680CD4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAEF9DD3-DB52-44F0-BC80-2D938680CD4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAEF9DD3-DB52-44F0-BC80-2D938680CD4F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3B3F478B-1F4F-493E-88B0-22762A0B1E3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3B3F478B-1F4F-493E-88B0-22762A0B1E3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3B3F478B-1F4F-493E-88B0-22762A0B1E3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3B3F478B-1F4F-493E-88B0-22762A0B1E3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DCDD53D-074B-42CA-ACAE-3D02B9AACFDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DCDD53D-074B-42CA-ACAE-3D02B9AACFDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DCDD53D-074B-42CA-ACAE-3D02B9AACFDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DCDD53D-074B-42CA-ACAE-3D02B9AACFDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06ED5586-77D5-498B-87B2-C75DEFBF76D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06ED5586-77D5-498B-87B2-C75DEFBF76D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06ED5586-77D5-498B-87B2-C75DEFBF76D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06ED5586-77D5-498B-87B2-C75DEFBF76D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D68C3DD-471F-4EEE-A3C3-61EAB01B059E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D68C3DD-471F-4EEE-A3C3-61EAB01B059E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D68C3DD-471F-4EEE-A3C3-61EAB01B059E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D68C3DD-471F-4EEE-A3C3-61EAB01B059E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF322CAC-F514-4E64-BD02-ED73CF4DBA7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF322CAC-F514-4E64-BD02-ED73CF4DBA7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF322CAC-F514-4E64-BD02-ED73CF4DBA7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF322CAC-F514-4E64-BD02-ED73CF4DBA7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
