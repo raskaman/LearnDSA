@@ -15,7 +15,6 @@ namespace _03_SortingAlgorithms
                 int j = i;
                 while (j > 0 && a[j] < a[j - 1])
                 {
-
                     Console.WriteLine(string.Join("| ", a));
                     (a[j], a[j - 1]) = (a[j - 1], a[j]);
                     j--;
