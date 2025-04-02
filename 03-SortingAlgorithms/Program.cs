@@ -15,21 +15,21 @@ Array.Copy(arrayOrg, array3, arrayOrg.Length);
 Array.Copy(arrayOrg, array4, arrayOrg.Length);
 Array.Copy(arrayOrg, array5, arrayOrg.Length);
 
-//Console.WriteLine("Selection Sort");
-//SelectionSort.Sort(array1);
-//Console.WriteLine($"Original array:, {string.Join("| ", arrayOrg)}");
+Console.WriteLine("Selection Sort");
+SelectionSort.Sort(array1);
+Console.WriteLine($"Original array:, {string.Join("| ", arrayOrg)}");
 
-//Console.WriteLine("Insertion Sort");
-//InsertionSort.Sort(array2);
-//Console.WriteLine($"Original array:, {string.Join("| ", arrayOrg)}");
+Console.WriteLine("Insertion Sort");
+InsertionSort.Sort(array2);
+Console.WriteLine($"Original array:, {string.Join("| ", arrayOrg)}");
 
-//Console.WriteLine("Bubble Sort");
-//BubbleSort.Sort(array3);
-//Console.WriteLine($"Original array:, {string.Join("| ", arrayOrg)}");
+Console.WriteLine("Bubble Sort");
+BubbleSort.Sort(array3);
+Console.WriteLine($"Original array:, {string.Join("| ", arrayOrg)}");
 
-//Console.WriteLine("Merge Sort");
-//MergeSort.Sort(array4);
-//Console.WriteLine($"Original array:, {string.Join("| ", arrayOrg)}");
+Console.WriteLine("Merge Sort");
+MergeSort.Sort(array4);
+Console.WriteLine($"Original array:, {string.Join("| ", arrayOrg)}");
 
 Console.WriteLine("Shell Sort");
 Console.WriteLine($"Original array:, {string.Join("| ", arrayOrg)}");
