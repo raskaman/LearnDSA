@@ -17,12 +17,12 @@ namespace _03_SortingAlgorithms
             {
 
                 // perform insertion sort, relative to h
-                for (int i = h; i < a.Length; i++)
+                for (int i = h; i < a.Length; i++) // iterate each element of the array
                 {
-                    int j = i;
+                    int j = i; // keeps track of the latest element in the for loop
                     int ai = a[i]; // get element located at h; i = h = 3 on first iteration, i = h = 1 on second iteration
 
-                    while (j >= h && ai < a[j - h]) // loop the array compare elements relative to h
+                    while (j >= h && ai < a[j - h]) // loop the array and compare elements relative to h
                     {
                         a[j] = a[j - h]; // swap element
                         j -= h; // reduce j by h; j = j - h = 3 - 3 = 0 on first for loop iteration, j = j - h = 4 - 3 = 1 on second for loop iteration
@@ -33,10 +33,10 @@ namespace _03_SortingAlgorithms
                 }
 
                 //// perform insertion sort, relative to h
-                //for (int i = h; i < a.Length; i++) 
+                //for (int i = h; i < a.Length; i++) // iterate each element of the array
                 //{
                 //    int j = i;
-                //    while (j >= h && a[j] < a[j - h]) // loop the array compare elements relative to h
+                //    while (j >= h && a[j] < a[j - h]) // loop the array and compare elements relative to h
                 //    {
                 //        Console.WriteLine(string.Join("| ", a));
                 //        (a[j], a[j - h]) = (a[j - h], a[j]); // swap elements
