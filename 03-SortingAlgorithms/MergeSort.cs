@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _03_SortingAlgorithms
+﻿namespace _03_SortingAlgorithms
 {
     public static class MergeSort
     {
