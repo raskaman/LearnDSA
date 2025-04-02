@@ -32,6 +32,7 @@ namespace _03_SortingAlgorithms
                     Console.WriteLine(string.Join("| ", a));
                 }
 
+                //// commented code: another version of insertion sort
                 //// perform insertion sort, relative to h
                 //for (int i = h; i < a.Length; i++) // iterate each element of the array
                 //{
